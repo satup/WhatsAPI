@@ -45,7 +45,7 @@ require "decode.php";
 		else if(startsWith($str,$acc_info_iden,3)){
 		return 'account_info';
 		}
-		else if(startsWith($str,$last_seen_ident,3) && strpos($str, $last_seen_ident2)){
+		else if(startsWith($str,$last_seen_ident,3)){
 		return 'last_seen';
 		}
 
